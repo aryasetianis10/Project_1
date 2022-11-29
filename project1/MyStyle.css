@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #101010;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #191919;
+    border-bottom: 1px solid red;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+.image{
+    width: 60%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    padding: 2px 780px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h3{
+    color: white;
+    font-size: 45px;
+    margin: 10px 0 10px;
+}
+h1{
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.content a{
+    font-size: 20px;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 7% 0;
+}
+.content a:hover{
+    background: transparent;
+    border: 2px solid red;
+}
+.about{
+    width: 100%;
+    padding: 100px 0 ;
+    background-color: #191919;
+}
+.zzz{
+    width: 1100px;
+    max-width: 95%;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.zzz img{
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+}
+.text{
+   width: 600px; 
+}
+.text h2{
+    color: white;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid red;
+}
+.text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.text li{
+    color: #fcfc;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 6px;
+    text-align: justify;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30%;
+    transition: .5s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.ccc{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ccc h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container{
+    color: white;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.rrr{
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.rrr h4{
+    color: red;
+    padding-bottom: 10px;
+}
+.rrr p{
+    font-size: 18px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: #fcfc;
+    font-size: 22px;
+    width: 500px;
+    text-align: center;
+    line-height: 20px;
+}
+.sosial{
+    display: flex;
+}
+.sosial a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    border: 2px solid white;
+}
+.sosial a:hover{
+    transform: scale(1.3);
+    transition: .5s;
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.end{
+    position: absolute;
+    color: white;
+    bottom: 65px;
+    font-size: 16px;
+}
